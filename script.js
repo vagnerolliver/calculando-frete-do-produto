@@ -74,8 +74,7 @@ function calculaFreteProduto() {
 	        type: "POST",
 	        dataType: "json",
 	        data: {
-              product_id: $("#product_id").val(),
-	            zip: cep
+                   product_id: $("#product_id").zip: cep,quantity: $('#qty input').val()
 	        },
 	        success: function(json) {
                 //console.log(json.error);
